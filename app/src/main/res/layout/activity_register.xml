@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BaseColor"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="注册界面"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <EditText
+            android:id="@+id/nick_name_ed_reg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_border"
+            android:gravity="center_vertical"
+            android:hint="昵称"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/Gray"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/pwd_ed_reg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_border"
+            android:gravity="center_vertical"
+            android:hint="注册密码"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/Gray"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/BaseColor"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

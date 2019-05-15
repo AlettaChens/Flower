@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.wordchen.flower"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 权限设置开头-->
+    <!--网络权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--NFC权限-->
+    <uses-permission android:name="android.permission.NFC"/>
+    <!--相机权限-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.camera"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <!-- 从sdcard中读取数据的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+    </uses-permission>
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <!--允许装载和卸载文件系统权限-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 权限设置结尾-->
+    <application
+        android:name="com.example.wordchen.App"
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyTransparent">
+        <activity android:name="com.example.wordchen.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN">
+                </action>
+                <category android:name="android.intent.category.LAUNCHER">
+                </category>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.wordchen.activity.LoginActivity"/>
+        <activity android:name="com.example.wordchen.activity.RegisterActivity"/>
+        <activity android:name="com.example.wordchen.activity.ErweimaActivity"/>
+        <activity
+            android:name="com.example.wordchen.activity.NFCReaderActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.example.wordchen.activity.AboutActivity"/>
+        <activity android:name="com.example.wordchen.activity.UpdateInfoActivity"/>
+        <activity android:name="com.example.wordchen.activity.CountActivity"/>
+        <activity android:name="com.example.wordchen.activity.MainActivity"/>
+        <activity android:name="com.example.wordchen.activity.DisplayActivity"/>
+        <activity
+            android:name="com.example.wordchen.activity.AddActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.example.wordchen.activity.ManagerActivity"/>
+        <activity android:name="com.example.wordchen.activity.UpdateFlowerActivity"/>
+        <activity
+            android:name="com.example.wordchen.activity.CardRegister"
+            android:launchMode="singleTop"/>
+
+
+    </application>
+
+</manifest>

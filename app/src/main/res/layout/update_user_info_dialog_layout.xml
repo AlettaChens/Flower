@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/c_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/BaseColor"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/normal_margin"
+        android:text="修改信息"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal_title_size"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/content_ed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:padding="@dimen/normal_margin"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/button_or_content_word_size"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/Gray">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/negative_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/BaseColor"
+            android:textSize="@dimen/button_or_content_word_size"/>
+
+        <View
+            android:layout_width="0.1px"
+            android:layout_height="match_parent"
+            android:background="@color/Gray"/>
+
+        <Button
+            android:id="@+id/positive_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/BaseColor"
+            android:textSize="@dimen/button_or_content_word_size"/>
+    </LinearLayout>
+</LinearLayout>

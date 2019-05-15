@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+
+    <!--<declare-styleable name="chartView">-->
+    <!--&lt;!&ndash; xy坐标轴颜色 &ndash;&gt;-->
+    <!--<attr name="xylinecolor" format="color" />-->
+    <!--&lt;!&ndash; xy坐标轴宽度 &ndash;&gt;-->
+    <!--<attr name="xylinewidth" format="dimension" />-->
+    <!--&lt;!&ndash; xy坐标轴文字颜色 &ndash;&gt;-->
+    <!--<attr name="xytextcolor" format="color" />-->
+    <!--&lt;!&ndash; xy坐标轴文字大小 &ndash;&gt;-->
+    <!--<attr name="xytextsize" format="dimension" />-->
+    <!--&lt;!&ndash; 折线图中折线的颜色 &ndash;&gt;-->
+    <!--<attr name="linecolor" format="color" />-->
+    <!--&lt;!&ndash; x轴各个坐标点水平间距 &ndash;&gt;-->
+    <!--<attr name="interval" format="dimension" />-->
+    <!--&lt;!&ndash; 背景颜色 &ndash;&gt;-->
+    <!--<attr name="bgcolor" format="color" />-->
+    <!--&lt;!&ndash;是否在ACTION_UP时，根据速度进行自滑动，建议关闭，过于占用GPU&ndash;&gt;-->
+    <!--<attr name="isScroll" format="boolean" />-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="chartView">
+        <attr name="xylinecolor" />
+        <attr name="xylinewidth" />
+        <attr name="xytextcolor" />
+        <attr name="xytextsize" />
+        <attr name="linecolor" />
+        <attr name="interval" />
+        <attr name="bgcolor" />
+        <attr name="isScroll" />
+    </declare-styleable>
+</resources>

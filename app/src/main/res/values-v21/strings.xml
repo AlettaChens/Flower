@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">花卉智语</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="photo_picture">从相册选择</string>
+    <string name="photo_camera">拍照</string>
+    <string name="photo_cancel">取消</string>
+    <string name="photo_list">相册集</string>
+    <string name="photo_check">图片选择</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="no_nfc">该设备不支持NFC</string>
+    <string name="open_nfc">NFC功能没打开，请打开</string>
+    <string name="write_tag">写入标签</string>
+    <string name="edit_hint">请输入您要写入标签的内容</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape_border">
+
+    <ImageView
+        android:id="@+id/iv_func"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_func"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_func"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="测试"
+        android:textSize="14dp"/>
+
+</RelativeLayout>

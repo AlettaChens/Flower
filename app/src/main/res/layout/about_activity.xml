@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/BaseColor"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="系统主要功能"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="20"
+                android:singleLine="false"
+                android:text="1、注册模块:分为管理员模式注册和游客注册两种方式，注册不同角色后期能实现的功能也不同。"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="20"
+                android:singleLine="false"
+                android:text="2、登录模块：分为管理员和游客两种登录方式，登陆之后展现不同的图形用户界面，从而可以实现不同的用途。"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="20"
+                android:singleLine="false"
+                android:text="3、数据采集模块：主要使用Android自带的NFC 识别并且读取花卉上的NFC标签或者通过摄像头读取花卉上的二维码来实现花卉的标号信息读取。"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:text="4、花卉管理模块：通过读取标签的标号，将对应标号与相关数据存入数据库中，实现花卉信息的录入。之后可以通过对应的其他数据接口实现花卉信息的删除、查询、修改，从而实现花卉信息的管理功能。"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="20"
+                android:singleLine="false"
+                android:text="5、语音播报模块：读取相应的编号，依照编号从数据库中读取相应的花卉信息到移动端，然后通过手机客户端朗读出对应的花卉信息。"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="20"
+                android:singleLine="false"
+                android:text="6、花卉数据展示：首先将对应的所有花卉信息读取到手机客户端，然后客户端将数据以列表形式或者是曲线图的形式展现在图形用户界面上。"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
